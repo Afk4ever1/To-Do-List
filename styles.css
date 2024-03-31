@@ -128,14 +128,14 @@ svg {
   right: 4px;
 }
 svg:hover {
+  background-color: #ff5945;
   cursor: pointer;
 }
-@media (hover: hover) {
-  svg:hover {
-    background-color: #ff5945;
-  }
-}
 @media (max-width: 500px) {
+  svg:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
   .writing_box {
     display: flex;
     flex-direction: column;
